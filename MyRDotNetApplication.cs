@@ -4,11 +4,6 @@ namespace MyRDotNetApplication
 {
 	class Program
 	{
-	        public static int prevFileLastWiredTimestamp = 0;
-	        public static int prevFileLastWifiTimestamp = 0;        
-	 
-	        static string[] files;
-	 
 	        static void Main(string[] args)
 	        {
 		    	string rawLatencyOutput = @"C:\\latencyOutput.csv";
